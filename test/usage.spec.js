@@ -7,7 +7,9 @@ const repo = client.repo(repository);
 const base = '0.1.0';
 
 describe('bump suggest', () => {
+
   it('detects fix commits and outputs a patch release suggestion.', function (done) {
+    expect(bumpSuggest(['fix(everything): Some test commit message'], base)).to.equal('0.1.1');
     repo.compare('master', 'patch', function(err, results) {
       expect(bumpSuggest(results.commits.map((commit) => commit.commit.message), base)).to.equal('0.1.1');
       done();
