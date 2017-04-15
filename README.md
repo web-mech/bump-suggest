@@ -7,10 +7,10 @@ Suggest the next version of a project based on commits and a given version
 
 ## Inspiration
 
- - https://github.com/conventional-changelog/standard-version
- - https://github.com/conventional-changelog-archived-repos/conventional-commits-parser
- - https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.gbbngquhe0qa
- - https://github.com/semantic-release/commit-analyzer
+ - [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.gbbngquhe0qa "AngularJS Git Commit Message Conventions")
+ - [standard-version](https://github.com/conventional-changelog/standard-version "standard-version")
+ - [conventional-commits-parser](https://github.com/conventional-changelog-archived-repos/conventional-commits-parser "conventional-commits-parser")
+ - [commit-analyzer](https://github.com/semantic-release/commit-analyzer "commit-analyzer")
  - The simple need to be able to tell the next version based on commits and a previous version.
 
 ## Syntax
