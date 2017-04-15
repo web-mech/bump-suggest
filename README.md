@@ -7,8 +7,8 @@ Suggest the next version of a project based on commits and a given version
 
 ## Inspiration
 
+ - [Conventional Commits](https://conventionalcommits.org/ "Conventional Commits")
  - [conventional-recommended-bump](https://github.com/conventional-changelog-archived-repos/conventional-recommended-bump "conventional-recommended-bump")
- - [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.gbbngquhe0qa "AngularJS Git Commit Message Conventions")
  - [standard-version](https://github.com/conventional-changelog/standard-version "standard-version")
  - [conventional-commits-parser](https://github.com/conventional-changelog-archived-repos/conventional-commits-parser "conventional-commits-parser")
  - [commit-analyzer](https://github.com/semantic-release/commit-analyzer "commit-analyzer")
