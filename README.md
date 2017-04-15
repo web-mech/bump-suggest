@@ -17,13 +17,14 @@ Suggest the next version of a project based on commits and a given version
 ## Syntax
 
 ```
-bumpSuggest([commits], [base])
+bumpSuggest(commits, base[, parserOpts])
 ```
 
 ### Parameters
 
 - commits \[Array\<String\>\] - an array of commit messages
 - base \<String\> - base version to suggest from
+- parserOpts {Object} - [parser optons](https://github.com/conventional-changelog-archived-repos/conventional-commits-parser#options "Conventional Parser Options")
 
 ## Example Usage
 
