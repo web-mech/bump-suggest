@@ -19,5 +19,11 @@ describe('bump suggest', () => {
   it('detects breaking changes and outputs a major release suggestion.', function () {
     expect(bumpSuggest(['feat(*): Some shiny new feature.\nsubject\ndescription\nBREAKING CHANGE:\nthis changes everything.'], base)).to.equal('1.0.0');
   });
+
+  it('allows override of parser options', function () {
+    expect(bumpSuggest(['feat(*): Some shiny new feature.\nsubject\ndescription\nBREAKING THING:\nthis changes everything.'], base, {
+      noteKeywords: ['BREAKING THING'],
+    })).to.equal('1.0.0');
+  });
 });
 
