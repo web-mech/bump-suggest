@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "mocha -R spec ./test/*.spec.js",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "mocha": "^3.2.0",
-    "octonode": "^0.7.11"
+    "octonode": "^0.7.11",
+    "standard-version": "^4.0.0"
   },
   "dependencies": {
     "conventional-changelog": "^1.1.3",
