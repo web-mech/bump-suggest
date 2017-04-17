@@ -5,19 +5,13 @@ const parser = require('./lib/parser');
 const priority = {
     'break': 1,
     'feat': 2,
-    'docs': 3,
-    'fix': 4,
-    'test': 5,
-    '': 6
+    '': 3
 };
 
 const changeReleaseMap = {
     'break': 'major',
     'feat': 'minor',
-    'fix': 'patch',
-    'docs': 'patch',
-    'test': 'patch',
-    '': ''
+    '': 'patch'
 };
 
 module.exports = function(commits, base, config) {
@@ -29,7 +23,7 @@ module.exports = function(commits, base, config) {
                 return 'break';
             }
 
-            if (priority[commit.type] <= priority[type]) {
+            if (priority[commit.type] && priority[commit.type] <= priority[type]) {
                 return commit.type;
             }
             return type;
