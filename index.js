@@ -7,7 +7,8 @@ const priority = {
     'feat': 2,
     'docs': 3,
     'fix': 4,
-    '': 5
+    'test': 5,
+    '': 6
 };
 
 const changeReleaseMap = {
@@ -15,6 +16,7 @@ const changeReleaseMap = {
     'feat': 'minor',
     'fix': 'patch',
     'docs': 'patch',
+    'test': 'patch',
     '': ''
 };
 
