@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha -R spec ./test/*.spec.js",
     "commit": "git-cz",
-    "release": "standard-version"
+    "release": "npm test && standard-version"
   },
   "repository": {
     "type": "git",
