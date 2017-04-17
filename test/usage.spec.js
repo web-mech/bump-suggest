@@ -8,6 +8,10 @@ describe('bump suggest', () => {
     expect(bumpSuggest(['docs(readme): better link'], base)).to.equal('0.1.1');
   });
 
+  it('detects tests and treats as a patch', function() {
+    expect(bumpSuggest(['test(*): something about tests'], base)).to.equal('0.1.1');
+  });
+
   it('detects fix commits and outputs a patch release suggestion.', function () {
     expect(bumpSuggest(['fix(everything): Some test commit message'], base)).to.equal('0.1.1');
   });
