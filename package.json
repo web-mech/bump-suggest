@@ -1,6 +1,6 @@
 {
   "name": "bump-suggest",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Suggest the next version of a project based on commits and current version Edit",
   "main": "index.js",
   "directories": {

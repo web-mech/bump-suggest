@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.3"></a>
+## [0.3.3](https://github.com/web-mech/bump-suggest/compare/v0.3.2...v0.3.3) (2017-04-17)
+
+
+### Bug Fixes
+
+* update logic ([eca4325](https://github.com/web-mech/bump-suggest/commit/eca4325))
+
+
+
 <a name="0.3.2"></a>
 ## [0.3.2](https://github.com/web-mech/bump-suggest/compare/v0.3.1...v0.3.2) (2017-04-15)
 
